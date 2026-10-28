@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE sesx>
+<sesx version="1.9">
+
+  <session appBuild="25.6.0.97" appVersion="25.6" audioChannelType="stereo" bitDepth="16" duration="1323000" sampleRate="44100">
+    <tracks>
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="true" visible="true">
+        <trackParameters trackHeight="416" trackHue="160" trackMinimized="false">
+          <name>Pista 1</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="1901e568-4c0c-49e3-9f55-4cdad5c16803" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="2b9a5675-a688-43b4-b60f-26bb4d347192" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="4cdb29a7-77ce-4e44-b7d4-1ffdeb7166e4" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Panorámica" parameterValue="0"/>
+          </component>
+          <component componentGuid="64faee45-d559-4836-b3a4-9c210493b407" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Frecuencia estante inferior" parameterValue="0.0009078529546968638896942138671875"/>
+            <parameter index="1" name="Ganancia estante inferior" parameterValue="0.5"/>
+            <parameter index="2" name="Frecuencia estante superior" parameterValue="0.816159784793853759765625"/>
+            <parameter index="3" name="Ganancia estante superior" parameterValue="0.5"/>
+            <parameter index="4" name="Frecuencia central de banda de EC 1" parameterValue="0.0013617794029414653778076171875"/>
+            <parameter index="5" name="Valor Q de banda de EC 1" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="Ganancia de banda de EC 1" parameterValue="0.5"/>
+            <parameter index="7" name="Activación de banda de EC 1" parameterValue="1"/>
+            <parameter index="8" name="Frecuencia central de banda de EC 2" parameterValue="0.008170676417648792266845703125"/>
+            <parameter index="9" name="Valor Q de banda de EC 2" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="Ganancia de banda de EC 2" parameterValue="0.5"/>
+            <parameter index="11" name="Activación de banda de EC 2" parameterValue="1"/>
+            <parameter index="12" name="Frecuencia central de banda de EC 3" parameterValue="0.0354062654078006744384765625"/>
+            <parameter index="13" name="Valor Q de banda de EC 3" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="Ganancia de banda de EC 3" parameterValue="0.5"/>
+            <parameter index="15" name="Activación de banda de EC 3" parameterValue="1"/>
+            <parameter index="16" name="Frecuencia central de banda de EC 4" parameterValue="0.144348621368408203125"/>
+            <parameter index="17" name="Valor Q de banda de EC 4" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="Ganancia de banda de EC 4" parameterValue="0.5"/>
+            <parameter index="19" name="Activación de banda de EC 4" parameterValue="1"/>
+            <parameter index="20" name="Frecuencia central de banda de EC 5" parameterValue="0.580118000507354736328125"/>
+            <parameter index="21" name="Valor Q de banda de EC 5" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="Ganancia de banda de EC 5" parameterValue="0.5"/>
+            <parameter index="23" name="Activación de banda de EC 5" parameterValue="1"/>
+            <parameter index="24" name="Ganancia" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="Constant Q" parameterValue="1"/>
+            <parameter index="26" name="Orden de filtro de estante inferior" parameterValue="0"/>
+            <parameter index="27" name="Orden de filtro de estante superior" parameterValue="0"/>
+            <parameter index="28" name="Modo ultrasilencioso" parameterValue="0"/>
+            <parameter index="29" name="Activar estante inferior" parameterValue="1"/>
+            <parameter index="30" name="Activar estante superior" parameterValue="1"/>
+            <parameter index="31" name="Velocidad de muestreo original" parameterValue="0.22968749701976776123046875"/>
+            <parameter index="32" name="Ancho de banda de EC 1" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="Ancho de banda de EC 2" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="Ancho de banda de EC 3" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="Ancho de banda de EC 4" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="Ancho de banda de EC 5" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="Activación de filtro de pase alto" parameterValue="0"/>
+            <parameter index="38" name="Frecuencia de límite de paso alto" parameterValue="0"/>
+            <parameter index="39" name="Pendiente de paso alto" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Activación de filtro de pase bajo" parameterValue="0"/>
+            <parameter index="41" name="Frecuencia de límite de paso bajo" parameterValue="0.906945049762725830078125"/>
+            <parameter index="42" name="Pendiente de paso bajo" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Derivar" parameterValue="0"/>
+            <parameter index="44" name="Rango de gráfico bajo" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <effectsRack preFader="true">
+          <component componentGuid="d6113e45-f0bc-43e0-b97e-4d310f7bce99" componentID="Audition.ComponentGroup" id="rackMix" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="a922897f-3a7b-48ca-a70b-080e0f7a70c3" id="rackInput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="fc5f5602-1a5e-442a-9c44-ae9ea38173be" id="rackOutput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <slot powered="true" slotIndex="0">
+            <component componentGuid="126b39b0-c62e-4719-9e56-e7bf8c8e8a70" componentID="c6762838-e451-4d22-9c90-b0eaa734605a" editorHeight="477" editorLeft="646" editorTop="278" editorWidth="628" name="Eliminar ruido" presetName="(Personalizar)">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <presetChunkData><![CDATA[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]]></presetChunkData>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="1">
+            <component componentGuid="60d85e68-63ae-40bf-9df0-338c11497330" componentID="8edcd326-33de-4a4d-985b-f1bf48ed1427" editorHeight="565" editorLeft="532" editorTop="234" editorWidth="857" name="Ecualizador paramétrico" presetName="(Personalizar)">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="Frecuencia estante inferior" parameterValue="0.000907852430827915668487548828125"/>
+              <parameter index="1" name="Ganancia estante inferior" parameterValue="0.5"/>
+              <parameter index="2" name="Frecuencia estante superior" parameterValue="0.816160380840301513671875"/>
+              <parameter index="3" name="Ganancia estante superior" parameterValue="0.5"/>
+              <parameter index="4" name="Frecuencia central de banda de EC 1" parameterValue="0.00183619116432964801788330078125"/>
+              <parameter index="5" name="Valor Q de banda de EC 1" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="6" name="Ganancia de banda de EC 1" parameterValue="0.4605263173580169677734375"/>
+              <parameter index="7" name="Activación de banda de EC 1" parameterValue="1"/>
+              <parameter index="8" name="Frecuencia central de banda de EC 2" parameterValue="0.004486680962145328521728515625"/>
+              <parameter index="9" name="Valor Q de banda de EC 2" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="10" name="Ganancia de banda de EC 2" parameterValue="0.46710526943206787109375"/>
+              <parameter index="11" name="Activación de banda de EC 2" parameterValue="1"/>
+              <parameter index="12" name="Frecuencia central de banda de EC 3" parameterValue="0.01686233468353748321533203125"/>
+              <parameter index="13" name="Valor Q de banda de EC 3" parameterValue="0.001479989965446293354034423828125"/>
+              <parameter index="14" name="Ganancia de banda de EC 3" parameterValue="0.40460526943206787109375"/>
+              <parameter index="15" name="Activación de banda de EC 3" parameterValue="1"/>
+              <parameter index="16" name="Frecuencia central de banda de EC 4" parameterValue="0.07394015789031982421875"/>
+              <parameter index="17" name="Valor Q de banda de EC 4" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="18" name="Ganancia de banda de EC 4" parameterValue="0.544407904148101806640625"/>
+              <parameter index="19" name="Activación de banda de EC 4" parameterValue="1"/>
+              <parameter index="20" name="Frecuencia central de banda de EC 5" parameterValue="0.3972736895084381103515625"/>
+              <parameter index="21" name="Valor Q de banda de EC 5" parameterValue="0.000199989997781813144683837890625"/>
+              <parameter index="22" name="Ganancia de banda de EC 5" parameterValue="0.547697365283966064453125"/>
+              <parameter index="23" name="Activación de banda de EC 5" parameterValue="1"/>
+              <parameter index="24" name="Ganancia" parameterValue="0.66666698455810546875"/>
+              <parameter index="25" name="Constant Q" parameterValue="1"/>
+              <parameter index="26" name="Orden de filtro de estante inferior" parameterValue="0"/>
+              <parameter index="27" name="Orden de filtro de estante superior" parameterValue="0"/>
+              <parameter index="28" name="Modo ultrasilencioso" parameterValue="0"/>
+              <parameter index="29" name="Activar estante inferior" parameterValue="1"/>
+              <parameter index="30" name="Activar estante superior" parameterValue="1"/>
+              <parameter index="31" name="Velocidad de muestreo original" parameterValue="0.22968749701976776123046875"/>
+              <parameter index="32" name="Ancho de banda de EC 1" parameterValue="0.00302255456335842609405517578125"/>
+              <parameter index="33" name="Ancho de banda de EC 2" parameterValue="0.0059420694597065448760986328125"/>
+              <parameter index="34" name="Ancho de banda de EC 3" parameterValue="0.0026451065205037593841552734375"/>
+              <parameter index="35" name="Ancho de banda de EC 4" parameterValue="0.082445077598094940185546875"/>
+              <parameter index="36" name="Ancho de banda de EC 5" parameterValue="0.4385969638824462890625"/>
+              <parameter index="37" name="Activación de filtro de pase alto" parameterValue="0"/>
+              <parameter index="38" name="Frecuencia de límite de paso alto" parameterValue="0.000907852430827915668487548828125"/>
+              <parameter index="39" name="Pendiente de paso alto" parameterValue="0.4000000059604644775390625"/>
+              <parameter index="40" name="Activación de filtro de pase bajo" parameterValue="0"/>
+              <parameter index="41" name="Frecuencia de límite de paso bajo" parameterValue="0.816160380840301513671875"/>
+              <parameter index="42" name="Pendiente de paso bajo" parameterValue="0.4000000059604644775390625"/>
+              <parameter index="43" name="Derivar" parameterValue="0"/>
+              <parameter index="44" name="Rango de gráfico bajo" parameterValue="1"/>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="2">
+            <component componentGuid="ab470e98-f928-4fec-9ef9-cccadda90f36" componentID="ffbe710f-cd69-4139-ad26-65603616d9d4" editorHeight="597" editorLeft="689" editorTop="218" editorWidth="542" name="DeEsser" presetName="(Personalizar)">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <presetChunkData><![CDATA[BCBuYWZldFMHAAAA8fBAwgAAyEIAAMhCpBoBRiwPtUQAAAAAAACAPw==]]></presetChunkData>
+            </component>
+          </slot>
+        </effectsRack>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="34015" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="VENTANA 44100 1" offline="false" select="false" sourceInPoint="81350" sourceOutPoint="115365" startPoint="0" zOrder="3">
+          <component componentGuid="20fbbc75-7122-49a9-9550-8579888b0fa8" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="c7071488-0814-4b71-a90f-b805f947839a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="cfb7a412-5a5a-455c-8b3c-802cbe02783d" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Panorámica" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="6596" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="34015" shape="7" startPoint="22914" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
+        <trackParameters trackHeight="416" trackHue="267" trackMinimized="false">
+          <name>Pista 2</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="3672b922-5f48-4afc-85b3-6c55a27abe9b" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="104b0abd-0fd5-411b-8d13-7837e8b84058" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="25b5006f-973b-42a4-a575-2656ee7b1c62" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Panorámica" parameterValue="0"/>
+          </component>
+          <component componentGuid="440f9200-8e4c-40a9-bd56-17016ffa0158" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Frecuencia estante inferior" parameterValue="0.0009078529546968638896942138671875"/>
+            <parameter index="1" name="Ganancia estante inferior" parameterValue="0.5"/>
+            <parameter index="2" name="Frecuencia estante superior" parameterValue="0.816159784793853759765625"/>
+            <parameter index="3" name="Ganancia estante superior" parameterValue="0.5"/>
+            <parameter index="4" name="Frecuencia central de banda de EC 1" parameterValue="0.0013617794029414653778076171875"/>
+            <parameter index="5" name="Valor Q de banda de EC 1" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="Ganancia de banda de EC 1" parameterValue="0.5"/>
+            <parameter index="7" name="Activación de banda de EC 1" parameterValue="1"/>
+            <parameter index="8" name="Frecuencia central de banda de EC 2" parameterValue="0.008170676417648792266845703125"/>
+            <parameter index="9" name="Valor Q de banda de EC 2" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="Ganancia de banda de EC 2" parameterValue="0.5"/>
+            <parameter index="11" name="Activación de banda de EC 2" parameterValue="1"/>
+            <parameter index="12" name="Frecuencia central de banda de EC 3" parameterValue="0.0354062654078006744384765625"/>
+            <parameter index="13" name="Valor Q de banda de EC 3" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="Ganancia de banda de EC 3" parameterValue="0.5"/>
+            <parameter index="15" name="Activación de banda de EC 3" parameterValue="1"/>
+            <parameter index="16" name="Frecuencia central de banda de EC 4" parameterValue="0.144348621368408203125"/>
+            <parameter index="17" name="Valor Q de banda de EC 4" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="Ganancia de banda de EC 4" parameterValue="0.5"/>
+            <parameter index="19" name="Activación de banda de EC 4" parameterValue="1"/>
+            <parameter index="20" name="Frecuencia central de banda de EC 5" parameterValue="0.580118000507354736328125"/>
+            <parameter index="21" name="Valor Q de banda de EC 5" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="Ganancia de banda de EC 5" parameterValue="0.5"/>
+            <parameter index="23" name="Activación de banda de EC 5" parameterValue="1"/>
+            <parameter index="24" name="Ganancia" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="Constant Q" parameterValue="1"/>
+            <parameter index="26" name="Orden de filtro de estante inferior" parameterValue="0"/>
+            <parameter index="27" name="Orden de filtro de estante superior" parameterValue="0"/>
+            <parameter index="28" name="Modo ultrasilencioso" parameterValue="0"/>
+            <parameter index="29" name="Activar estante inferior" parameterValue="1"/>
+            <parameter index="30" name="Activar estante superior" parameterValue="1"/>
+            <parameter index="31" name="Velocidad de muestreo original" parameterValue="0.22968749701976776123046875"/>
+            <parameter index="32" name="Ancho de banda de EC 1" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="Ancho de banda de EC 2" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="Ancho de banda de EC 3" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="Ancho de banda de EC 4" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="Ancho de banda de EC 5" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="Activación de filtro de pase alto" parameterValue="0"/>
+            <parameter index="38" name="Frecuencia de límite de paso alto" parameterValue="0"/>
+            <parameter index="39" name="Pendiente de paso alto" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Activación de filtro de pase bajo" parameterValue="0"/>
+            <parameter index="41" name="Frecuencia de límite de paso bajo" parameterValue="0.906945049762725830078125"/>
+            <parameter index="42" name="Pendiente de paso bajo" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Derivar" parameterValue="0"/>
+            <parameter index="44" name="Rango de gráfico bajo" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
+        <trackParameters trackHeight="416" trackHue="51" trackMinimized="false">
+          <name>Pista 3</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="21654e66-f2d3-4d76-b428-61a345781f51" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="4c8b524e-2950-493a-a70f-f662c284c202" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="da7987e8-fa3e-40a0-95f6-4be905503716" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Panorámica" parameterValue="0"/>
+          </component>
+          <component componentGuid="6db177b6-77a6-4311-85e2-3e1e179f7060" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Frecuencia estante inferior" parameterValue="0.0009078529546968638896942138671875"/>
+            <parameter index="1" name="Ganancia estante inferior" parameterValue="0.5"/>
+            <parameter index="2" name="Frecuencia estante superior" parameterValue="0.816159784793853759765625"/>
+            <parameter index="3" name="Ganancia estante superior" parameterValue="0.5"/>
+            <parameter index="4" name="Frecuencia central de banda de EC 1" parameterValue="0.0013617794029414653778076171875"/>
+            <parameter index="5" name="Valor Q de banda de EC 1" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="Ganancia de banda de EC 1" parameterValue="0.5"/>
+            <parameter index="7" name="Activación de banda de EC 1" parameterValue="1"/>
+            <parameter index="8" name="Frecuencia central de banda de EC 2" parameterValue="0.008170676417648792266845703125"/>
+            <parameter index="9" name="Valor Q de banda de EC 2" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="Ganancia de banda de EC 2" parameterValue="0.5"/>
+            <parameter index="11" name="Activación de banda de EC 2" parameterValue="1"/>
+            <parameter index="12" name="Frecuencia central de banda de EC 3" parameterValue="0.0354062654078006744384765625"/>
+            <parameter index="13" name="Valor Q de banda de EC 3" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="Ganancia de banda de EC 3" parameterValue="0.5"/>
+            <parameter index="15" name="Activación de banda de EC 3" parameterValue="1"/>
+            <parameter index="16" name="Frecuencia central de banda de EC 4" parameterValue="0.144348621368408203125"/>
+            <parameter index="17" name="Valor Q de banda de EC 4" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="Ganancia de banda de EC 4" parameterValue="0.5"/>
+            <parameter index="19" name="Activación de banda de EC 4" parameterValue="1"/>
+            <parameter index="20" name="Frecuencia central de banda de EC 5" parameterValue="0.580118000507354736328125"/>
+            <parameter index="21" name="Valor Q de banda de EC 5" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="Ganancia de banda de EC 5" parameterValue="0.5"/>
+            <parameter index="23" name="Activación de banda de EC 5" parameterValue="1"/>
+            <parameter index="24" name="Ganancia" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="Constant Q" parameterValue="1"/>
+            <parameter index="26" name="Orden de filtro de estante inferior" parameterValue="0"/>
+            <parameter index="27" name="Orden de filtro de estante superior" parameterValue="0"/>
+            <parameter index="28" name="Modo ultrasilencioso" parameterValue="0"/>
+            <parameter index="29" name="Activar estante inferior" parameterValue="1"/>
+            <parameter index="30" name="Activar estante superior" parameterValue="1"/>
+            <parameter index="31" name="Velocidad de muestreo original" parameterValue="0.22968749701976776123046875"/>
+            <parameter index="32" name="Ancho de banda de EC 1" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="Ancho de banda de EC 2" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="Ancho de banda de EC 3" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="Ancho de banda de EC 4" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="Ancho de banda de EC 5" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="Activación de filtro de pase alto" parameterValue="0"/>
+            <parameter index="38" name="Frecuencia de límite de paso alto" parameterValue="0"/>
+            <parameter index="39" name="Pendiente de paso alto" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Activación de filtro de pase bajo" parameterValue="0"/>
+            <parameter index="41" name="Frecuencia de límite de paso bajo" parameterValue="0.906945049762725830078125"/>
+            <parameter index="42" name="Pendiente de paso bajo" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Derivar" parameterValue="0"/>
+            <parameter index="44" name="Rango de gráfico bajo" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
+        <trackParameters trackHeight="416" trackHue="182" trackMinimized="false">
+          <name>Pista 4</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="ccf85546-12be-4835-ad65-90a06c83e1e6" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="18ea2f4d-1181-447d-9581-2907d1b88f42" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="499adfd1-a518-4293-8644-14d405e57f40" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Panorámica" parameterValue="0"/>
+          </component>
+          <component componentGuid="11a88b4b-c309-4599-ad5a-707c91142877" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Frecuencia estante inferior" parameterValue="0.0009078529546968638896942138671875"/>
+            <parameter index="1" name="Ganancia estante inferior" parameterValue="0.5"/>
+            <parameter index="2" name="Frecuencia estante superior" parameterValue="0.816159784793853759765625"/>
+            <parameter index="3" name="Ganancia estante superior" parameterValue="0.5"/>
+            <parameter index="4" name="Frecuencia central de banda de EC 1" parameterValue="0.0013617794029414653778076171875"/>
+            <parameter index="5" name="Valor Q de banda de EC 1" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="Ganancia de banda de EC 1" parameterValue="0.5"/>
+            <parameter index="7" name="Activación de banda de EC 1" parameterValue="1"/>
+            <parameter index="8" name="Frecuencia central de banda de EC 2" parameterValue="0.008170676417648792266845703125"/>
+            <parameter index="9" name="Valor Q de banda de EC 2" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="Ganancia de banda de EC 2" parameterValue="0.5"/>
+            <parameter index="11" name="Activación de banda de EC 2" parameterValue="1"/>
+            <parameter index="12" name="Frecuencia central de banda de EC 3" parameterValue="0.0354062654078006744384765625"/>
+            <parameter index="13" name="Valor Q de banda de EC 3" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="Ganancia de banda de EC 3" parameterValue="0.5"/>
+            <parameter index="15" name="Activación de banda de EC 3" parameterValue="1"/>
+            <parameter index="16" name="Frecuencia central de banda de EC 4" parameterValue="0.144348621368408203125"/>
+            <parameter index="17" name="Valor Q de banda de EC 4" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="Ganancia de banda de EC 4" parameterValue="0.5"/>
+            <parameter index="19" name="Activación de banda de EC 4" parameterValue="1"/>
+            <parameter index="20" name="Frecuencia central de banda de EC 5" parameterValue="0.580118000507354736328125"/>
+            <parameter index="21" name="Valor Q de banda de EC 5" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="Ganancia de banda de EC 5" parameterValue="0.5"/>
+            <parameter index="23" name="Activación de banda de EC 5" parameterValue="1"/>
+            <parameter index="24" name="Ganancia" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="Constant Q" parameterValue="1"/>
+            <parameter index="26" name="Orden de filtro de estante inferior" parameterValue="0"/>
+            <parameter index="27" name="Orden de filtro de estante superior" parameterValue="0"/>
+            <parameter index="28" name="Modo ultrasilencioso" parameterValue="0"/>
+            <parameter index="29" name="Activar estante inferior" parameterValue="1"/>
+            <parameter index="30" name="Activar estante superior" parameterValue="1"/>
+            <parameter index="31" name="Velocidad de muestreo original" parameterValue="0.22968749701976776123046875"/>
+            <parameter index="32" name="Ancho de banda de EC 1" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="Ancho de banda de EC 2" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="Ancho de banda de EC 3" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="Ancho de banda de EC 4" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="Ancho de banda de EC 5" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="Activación de filtro de pase alto" parameterValue="0"/>
+            <parameter index="38" name="Frecuencia de límite de paso alto" parameterValue="0"/>
+            <parameter index="39" name="Pendiente de paso alto" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Activación de filtro de pase bajo" parameterValue="0"/>
+            <parameter index="41" name="Frecuencia de límite de paso bajo" parameterValue="0.906945049762725830078125"/>
+            <parameter index="42" name="Pendiente de paso bajo" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Derivar" parameterValue="0"/>
+            <parameter index="44" name="Rango de gráfico bajo" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10005" index="5" select="false" visible="true">
+        <trackParameters trackHeight="416" trackHue="294" trackMinimized="false">
+          <name>Pista 5</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="c51a979a-4694-47c2-be27-6372792008cb" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="18bd0ac9-e1aa-493b-9e4a-b136e7f88bf9" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="488f0610-dd3c-4458-84af-c2d2a48fe0fd" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Panorámica" parameterValue="0"/>
+          </component>
+          <component componentGuid="8c19e29c-d6b5-405e-9e78-64d6e6cb4657" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Frecuencia estante inferior" parameterValue="0.0009078529546968638896942138671875"/>
+            <parameter index="1" name="Ganancia estante inferior" parameterValue="0.5"/>
+            <parameter index="2" name="Frecuencia estante superior" parameterValue="0.816159784793853759765625"/>
+            <parameter index="3" name="Ganancia estante superior" parameterValue="0.5"/>
+            <parameter index="4" name="Frecuencia central de banda de EC 1" parameterValue="0.0013617794029414653778076171875"/>
+            <parameter index="5" name="Valor Q de banda de EC 1" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="Ganancia de banda de EC 1" parameterValue="0.5"/>
+            <parameter index="7" name="Activación de banda de EC 1" parameterValue="1"/>
+            <parameter index="8" name="Frecuencia central de banda de EC 2" parameterValue="0.008170676417648792266845703125"/>
+            <parameter index="9" name="Valor Q de banda de EC 2" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="Ganancia de banda de EC 2" parameterValue="0.5"/>
+            <parameter index="11" name="Activación de banda de EC 2" parameterValue="1"/>
+            <parameter index="12" name="Frecuencia central de banda de EC 3" parameterValue="0.0354062654078006744384765625"/>
+            <parameter index="13" name="Valor Q de banda de EC 3" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="Ganancia de banda de EC 3" parameterValue="0.5"/>
+            <parameter index="15" name="Activación de banda de EC 3" parameterValue="1"/>
+            <parameter index="16" name="Frecuencia central de banda de EC 4" parameterValue="0.144348621368408203125"/>
+            <parameter index="17" name="Valor Q de banda de EC 4" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="Ganancia de banda de EC 4" parameterValue="0.5"/>
+            <parameter index="19" name="Activación de banda de EC 4" parameterValue="1"/>
+            <parameter index="20" name="Frecuencia central de banda de EC 5" parameterValue="0.580118000507354736328125"/>
+            <parameter index="21" name="Valor Q de banda de EC 5" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="Ganancia de banda de EC 5" parameterValue="0.5"/>
+            <parameter index="23" name="Activación de banda de EC 5" parameterValue="1"/>
+            <parameter index="24" name="Ganancia" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="Constant Q" parameterValue="1"/>
+            <parameter index="26" name="Orden de filtro de estante inferior" parameterValue="0"/>
+            <parameter index="27" name="Orden de filtro de estante superior" parameterValue="0"/>
+            <parameter index="28" name="Modo ultrasilencioso" parameterValue="0"/>
+            <parameter index="29" name="Activar estante inferior" parameterValue="1"/>
+            <parameter index="30" name="Activar estante superior" parameterValue="1"/>
+            <parameter index="31" name="Velocidad de muestreo original" parameterValue="0.22968749701976776123046875"/>
+            <parameter index="32" name="Ancho de banda de EC 1" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="Ancho de banda de EC 2" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="Ancho de banda de EC 3" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="Ancho de banda de EC 4" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="Ancho de banda de EC 5" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="Activación de filtro de pase alto" parameterValue="0"/>
+            <parameter index="38" name="Frecuencia de límite de paso alto" parameterValue="0"/>
+            <parameter index="39" name="Pendiente de paso alto" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Activación de filtro de pase bajo" parameterValue="0"/>
+            <parameter index="41" name="Frecuencia de límite de paso bajo" parameterValue="0.906945049762725830078125"/>
+            <parameter index="42" name="Pendiente de paso bajo" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Derivar" parameterValue="0"/>
+            <parameter index="44" name="Rango de gráfico bajo" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10006" index="6" select="false" visible="true">
+        <trackParameters trackHeight="416" trackHue="92" trackMinimized="false">
+          <name>Pista 6</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="5cf59968-afce-4a62-a802-ac2d1308bd1e" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="0b26ac92-cef6-4145-9853-0cdd08bdc378" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="d09f09f4-91a0-439a-9c3a-5bc5b8079a7f" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Panorámica" parameterValue="0"/>
+          </component>
+          <component componentGuid="7a8bfbf3-5b50-4ab4-8813-3e1e90e8a813" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Frecuencia estante inferior" parameterValue="0.0009078529546968638896942138671875"/>
+            <parameter index="1" name="Ganancia estante inferior" parameterValue="0.5"/>
+            <parameter index="2" name="Frecuencia estante superior" parameterValue="0.816159784793853759765625"/>
+            <parameter index="3" name="Ganancia estante superior" parameterValue="0.5"/>
+            <parameter index="4" name="Frecuencia central de banda de EC 1" parameterValue="0.0013617794029414653778076171875"/>
+            <parameter index="5" name="Valor Q de banda de EC 1" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="Ganancia de banda de EC 1" parameterValue="0.5"/>
+            <parameter index="7" name="Activación de banda de EC 1" parameterValue="1"/>
+            <parameter index="8" name="Frecuencia central de banda de EC 2" parameterValue="0.008170676417648792266845703125"/>
+            <parameter index="9" name="Valor Q de banda de EC 2" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="Ganancia de banda de EC 2" parameterValue="0.5"/>
+            <parameter index="11" name="Activación de banda de EC 2" parameterValue="1"/>
+            <parameter index="12" name="Frecuencia central de banda de EC 3" parameterValue="0.0354062654078006744384765625"/>
+            <parameter index="13" name="Valor Q de banda de EC 3" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="Ganancia de banda de EC 3" parameterValue="0.5"/>
+            <parameter index="15" name="Activación de banda de EC 3" parameterValue="1"/>
+            <parameter index="16" name="Frecuencia central de banda de EC 4" parameterValue="0.144348621368408203125"/>
+            <parameter index="17" name="Valor Q de banda de EC 4" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="Ganancia de banda de EC 4" parameterValue="0.5"/>
+            <parameter index="19" name="Activación de banda de EC 4" parameterValue="1"/>
+            <parameter index="20" name="Frecuencia central de banda de EC 5" parameterValue="0.580118000507354736328125"/>
+            <parameter index="21" name="Valor Q de banda de EC 5" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="Ganancia de banda de EC 5" parameterValue="0.5"/>
+            <parameter index="23" name="Activación de banda de EC 5" parameterValue="1"/>
+            <parameter index="24" name="Ganancia" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="Constant Q" parameterValue="1"/>
+            <parameter index="26" name="Orden de filtro de estante inferior" parameterValue="0"/>
+            <parameter index="27" name="Orden de filtro de estante superior" parameterValue="0"/>
+            <parameter index="28" name="Modo ultrasilencioso" parameterValue="0"/>
+            <parameter index="29" name="Activar estante inferior" parameterValue="1"/>
+            <parameter index="30" name="Activar estante superior" parameterValue="1"/>
+            <parameter index="31" name="Velocidad de muestreo original" parameterValue="0.22968749701976776123046875"/>
+            <parameter index="32" name="Ancho de banda de EC 1" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="Ancho de banda de EC 2" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="Ancho de banda de EC 3" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="Ancho de banda de EC 4" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="Ancho de banda de EC 5" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="Activación de filtro de pase alto" parameterValue="0"/>
+            <parameter index="38" name="Frecuencia de límite de paso alto" parameterValue="0"/>
+            <parameter index="39" name="Pendiente de paso alto" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Activación de filtro de pase bajo" parameterValue="0"/>
+            <parameter index="41" name="Frecuencia de límite de paso bajo" parameterValue="0.906945049762725830078125"/>
+            <parameter index="42" name="Pendiente de paso bajo" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Derivar" parameterValue="0"/>
+            <parameter index="44" name="Rango de gráfico bajo" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <masterTrack automationLaneOpenState="false" id="10000" index="7" select="false" visible="true">
+        <trackParameters trackHeight="416" trackHue="-1" trackMinimized="false">
+          <name>Mezcla</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="1" type="hardwareOutput"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="2833249c-4e4e-428a-a5f2-131a79c35bba" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="dc2de2d3-0f13-4a7c-be10-3a917ba7aabb" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="e5dcbff4-93f2-4b28-994b-da937b29d864" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Panorámica" parameterValue="0"/>
+          </component>
+          <component componentGuid="15432b4e-1ac0-439b-add1-80cf3f6180b1" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Frecuencia estante inferior" parameterValue="0.0009078529546968638896942138671875"/>
+            <parameter index="1" name="Ganancia estante inferior" parameterValue="0.5"/>
+            <parameter index="2" name="Frecuencia estante superior" parameterValue="0.816159784793853759765625"/>
+            <parameter index="3" name="Ganancia estante superior" parameterValue="0.5"/>
+            <parameter index="4" name="Frecuencia central de banda de EC 1" parameterValue="0.0013617794029414653778076171875"/>
+            <parameter index="5" name="Valor Q de banda de EC 1" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="Ganancia de banda de EC 1" parameterValue="0.5"/>
+            <parameter index="7" name="Activación de banda de EC 1" parameterValue="1"/>
+            <parameter index="8" name="Frecuencia central de banda de EC 2" parameterValue="0.008170676417648792266845703125"/>
+            <parameter index="9" name="Valor Q de banda de EC 2" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="Ganancia de banda de EC 2" parameterValue="0.5"/>
+            <parameter index="11" name="Activación de banda de EC 2" parameterValue="1"/>
+            <parameter index="12" name="Frecuencia central de banda de EC 3" parameterValue="0.0354062654078006744384765625"/>
+            <parameter index="13" name="Valor Q de banda de EC 3" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="Ganancia de banda de EC 3" parameterValue="0.5"/>
+            <parameter index="15" name="Activación de banda de EC 3" parameterValue="1"/>
+            <parameter index="16" name="Frecuencia central de banda de EC 4" parameterValue="0.144348621368408203125"/>
+            <parameter index="17" name="Valor Q de banda de EC 4" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="Ganancia de banda de EC 4" parameterValue="0.5"/>
+            <parameter index="19" name="Activación de banda de EC 4" parameterValue="1"/>
+            <parameter index="20" name="Frecuencia central de banda de EC 5" parameterValue="0.580118000507354736328125"/>
+            <parameter index="21" name="Valor Q de banda de EC 5" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="Ganancia de banda de EC 5" parameterValue="0.5"/>
+            <parameter index="23" name="Activación de banda de EC 5" parameterValue="1"/>
+            <parameter index="24" name="Ganancia" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="Constant Q" parameterValue="1"/>
+            <parameter index="26" name="Orden de filtro de estante inferior" parameterValue="0"/>
+            <parameter index="27" name="Orden de filtro de estante superior" parameterValue="0"/>
+            <parameter index="28" name="Modo ultrasilencioso" parameterValue="0"/>
+            <parameter index="29" name="Activar estante inferior" parameterValue="1"/>
+            <parameter index="30" name="Activar estante superior" parameterValue="1"/>
+            <parameter index="31" name="Velocidad de muestreo original" parameterValue="0.22968749701976776123046875"/>
+            <parameter index="32" name="Ancho de banda de EC 1" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="Ancho de banda de EC 2" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="Ancho de banda de EC 3" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="Ancho de banda de EC 4" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="Ancho de banda de EC 5" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="Activación de filtro de pase alto" parameterValue="0"/>
+            <parameter index="38" name="Frecuencia de límite de paso alto" parameterValue="0"/>
+            <parameter index="39" name="Pendiente de paso alto" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Activación de filtro de pase bajo" parameterValue="0"/>
+            <parameter index="41" name="Frecuencia de límite de paso bajo" parameterValue="0.906945049762725830078125"/>
+            <parameter index="42" name="Pendiente de paso bajo" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Derivar" parameterValue="0"/>
+            <parameter index="44" name="Rango de gráfico bajo" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </masterTrack>
+    </tracks>
+    <sessionState ctiPosition="18501" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="18501"/>
+      <viewState horizontalViewDuration="179720" horizontalViewStart="0" trackControlsWidth="224" verticalScrollOffset="0"/>
+      <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
+      <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
+    </sessionState>
+    <xmpMetadata><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.1-c003 79.9690a87, 2025/03/06-19:12:03        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
+         <xmp:CreatorTool>Adobe Audition 25.6 (Windows)</xmp:CreatorTool>
+         <xmp:CreateDate>2026-10-27T14:45:33-05:00</xmp:CreateDate>
+         <xmp:MetadataDate>2026-10-27T15:12:47-05:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2026-10-27T15:12:47-05:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:3cdf990d-7af8-fd4e-8859-b1d28fb8ba25</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:f9446ff7-1fc7-9a46-aa82-092d60b2b5cd</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:f9446ff7-1fc7-9a46-aa82-092d60b2b5cd</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f9446ff7-1fc7-9a46-aa82-092d60b2b5cd</stEvt:instanceID>
+                  <stEvt:when>2026-10-27T14:45:33-05:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:bde9be60-20f1-fa48-b57f-fa5ee27823b3</stEvt:instanceID>
+                  <stEvt:when>2026-10-27T14:49:01-05:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f3647ee9-dd9a-b749-a0c0-3235491c6005</stEvt:instanceID>
+                  <stEvt:when>2026-10-27T14:49:01-05:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e927eb33-0666-c84c-bc33-d3525a660f99</stEvt:instanceID>
+                  <stEvt:when>2026-10-27T15:12:47-05:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3cdf990d-7af8-fd4e-8859-b1d28fb8ba25</stEvt:instanceID>
+                  <stEvt:when>2026-10-27T15:12:47-05:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <dc:format>application/xml</dc:format>
+         <xmpDM:Tracks>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CuePoint Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Cue</xmpDM:trackType>
+                  <xmpDM:frameRate>f44100</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CD Track Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Track</xmpDM:trackType>
+                  <xmpDM:frameRate>f44100</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>Subclip Markers</xmpDM:trackName>
+                  <xmpDM:trackType>InOut</xmpDM:trackType>
+                  <xmpDM:frameRate>f44100</xmpDM:frameRate>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpDM:Tracks>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>]]></xmpMetadata>
+    <clipGroups/>
+    <metronome enabled="false" pattern="downBeat subdivision subdivision subdivision " soundSet="sticks">
+      <metronomeTrack automationLaneOpenState="false" id="40000" index="0" select="false" visible="false">
+        <trackParameters trackHeight="77" trackHue="-1" trackMinimized="false">
+          <name>Metrónomo</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="mono" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="a7e36add-0e49-435a-97e9-a20f80871021" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.50118720531463623046875"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="263c0795-7c42-47cb-9b63-31e466531279" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="99c50f3c-6321-4f31-b350-a35c29b48a29" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Panorámica" parameterValue="0"/>
+          </component>
+          <component componentGuid="0d3c2a8a-8995-4f8f-a316-83c25e60d102" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Frecuencia estante inferior" parameterValue="0.0009078529546968638896942138671875"/>
+            <parameter index="1" name="Ganancia estante inferior" parameterValue="0.5"/>
+            <parameter index="2" name="Frecuencia estante superior" parameterValue="0.816159784793853759765625"/>
+            <parameter index="3" name="Ganancia estante superior" parameterValue="0.5"/>
+            <parameter index="4" name="Frecuencia central de banda de EC 1" parameterValue="0.0013617794029414653778076171875"/>
+            <parameter index="5" name="Valor Q de banda de EC 1" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="Ganancia de banda de EC 1" parameterValue="0.5"/>
+            <parameter index="7" name="Activación de banda de EC 1" parameterValue="1"/>
+            <parameter index="8" name="Frecuencia central de banda de EC 2" parameterValue="0.008170676417648792266845703125"/>
+            <parameter index="9" name="Valor Q de banda de EC 2" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="Ganancia de banda de EC 2" parameterValue="0.5"/>
+            <parameter index="11" name="Activación de banda de EC 2" parameterValue="1"/>
+            <parameter index="12" name="Frecuencia central de banda de EC 3" parameterValue="0.0354062654078006744384765625"/>
+            <parameter index="13" name="Valor Q de banda de EC 3" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="Ganancia de banda de EC 3" parameterValue="0.5"/>
+            <parameter index="15" name="Activación de banda de EC 3" parameterValue="1"/>
+            <parameter index="16" name="Frecuencia central de banda de EC 4" parameterValue="0.144348621368408203125"/>
+            <parameter index="17" name="Valor Q de banda de EC 4" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="Ganancia de banda de EC 4" parameterValue="0.5"/>
+            <parameter index="19" name="Activación de banda de EC 4" parameterValue="1"/>
+            <parameter index="20" name="Frecuencia central de banda de EC 5" parameterValue="0.580118000507354736328125"/>
+            <parameter index="21" name="Valor Q de banda de EC 5" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="Ganancia de banda de EC 5" parameterValue="0.5"/>
+            <parameter index="23" name="Activación de banda de EC 5" parameterValue="1"/>
+            <parameter index="24" name="Ganancia" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="Constant Q" parameterValue="1"/>
+            <parameter index="26" name="Orden de filtro de estante inferior" parameterValue="0"/>
+            <parameter index="27" name="Orden de filtro de estante superior" parameterValue="0"/>
+            <parameter index="28" name="Modo ultrasilencioso" parameterValue="0"/>
+            <parameter index="29" name="Activar estante inferior" parameterValue="1"/>
+            <parameter index="30" name="Activar estante superior" parameterValue="1"/>
+            <parameter index="31" name="Velocidad de muestreo original" parameterValue="0.22968749701976776123046875"/>
+            <parameter index="32" name="Ancho de banda de EC 1" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="Ancho de banda de EC 2" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="Ancho de banda de EC 3" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="Ancho de banda de EC 4" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="Ancho de banda de EC 5" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="Activación de filtro de pase alto" parameterValue="0"/>
+            <parameter index="38" name="Frecuencia de límite de paso alto" parameterValue="0"/>
+            <parameter index="39" name="Pendiente de paso alto" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Activación de filtro de pase bajo" parameterValue="0"/>
+            <parameter index="41" name="Frecuencia de límite de paso bajo" parameterValue="0.906945049762725830078125"/>
+            <parameter index="42" name="Pendiente de paso bajo" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Derivar" parameterValue="0"/>
+            <parameter index="44" name="Rango de gráfico bajo" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </metronomeTrack>
+    </metronome>
+    <properties>
+      <property key="EssentialSoundConfigurations">[{"Guid":"a8b40e3e-13e7-4c1f-b382-96058f1f691d","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"ambience","Models":{"model_ducking":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-30},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/LargeRoomAmbience=Large Room Ambience":{"type":"array::float","value":[0.05150749906897545,0.32432401180267334,0.2929289937019348,0.30000001192092896,0.20000000298023224,0,0.14285700023174286,0.4000000059604645,0.5,0.699999988079071,0.30000001192092896,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideAmbience=Outside Ambience":{"type":"array::float","value":[0.09170850366353989,0.04389389976859093,1,0.5,0.20000000298023224,0.800000011920929,0.18367299437522888,1,0.5,0,0.800000011920929,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomAmbience=Room Ambience":{"type":"array::float","value":[0.0577889010310173,0.44944900274276733,0.49494898319244385,0.8999999761581421,0.10000000149011612,0.15000000596046448,0.08163270354270935,0.4000000059604645,0.5,0.800000011920929,0.20000000298023224,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WindEffect=Wind Effect":{"type":"array::float","value":[0.1959799975156784,0.6896899938583374,0.6969699859619141,0.25,0.5,0.5,0.2346940040588379,0.5199999809265137,0.5,0.75,0.25,0.2512562870979309,0.03125]}}}},"model_stereowidth":{},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"58dc27a8-6a2a-480c-bd0c-4b45fff346a6","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"dialog","Models":{"model_clarity":{"EQPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/EQPreset/BackgroundVoice=Background Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.5,0.5,0.47827938199043274,0.4577268958091736,0.45778733491897583,0.47946760058403015,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/Intercom=Intercom":{"type":"array::float","value":[0.19432899355888367,0.5,1,0,0.07149998843669891,0.07149998843669891,0.07149998843669891,0.40238627791404724,0.48571401834487915,0.5,0.5515574812889099,0.5960257649421692,0.22246670722961426,0.07149998843669891,0]},"$$$/app/Presets/EssentialSound/EQPreset/LockedInTheTrunk=Locked in the Trunk":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.5,0.5,0.5,0.5,0.5,0.32846158742904663,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OldRadio=Old Radio":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.2844204008579254,0.48315632343292236,0.364984929561615,0.5285388827323914,0.4351150095462799,0.2715468406677246,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OnTheTelephone=On the Telephone":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.328642874956131,0.328642874956131,0.328642874956131,0.328642874956131,0.48571401834487915,0.5307139754295349,0.5307139754295349,0.48357096314430237,0.328642874956131,0.328642874956131,0]},"$$$/app/Presets/EssentialSound/EQPreset/OutsideOfTheRoom=Outside of the Room":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.4253937005996704,0.47865453362464905,0.5,0.5,0.48571401834487915,0.40073278546333313,0.25656309723854065,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/PodcastVoice=Podcast Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.5178940892219543,0.507703423500061,0.5,0.5178940892219543,0.528114914894104,0.5102812647819519,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostHighTone=Subtle Boost (High Tone)":{"type":"array::float","value":[0.09655340015888214,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.519334077835083,0.5464289784431458,0.5270676612854004,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostLowTone=Subtle Boost (Low Tone)":{"type":"array::float","value":[0.09655340015888214,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.5135338306427002,0.5464289784431458,0.519334077835083,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/ThatPublicRadioSound=That Public Radio Sound":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.3633434474468231,0.4946831166744232,0.5,0.5,0.5,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/VocalPresence=Vocal Presence":{"type":"array::float","value":[0.09655340015888214,0.5,0.324894517660141,0,0.3572143018245697,0.3572143018245697,0.4642857015132904,0.47857141494750977,0.4763694703578949,0.4957035481929779,0.5592495799064636,0.5652339458465576,0.5085929036140442,0.46992480754852295,0]}}}},"model_loudness":{"DefaultLoudness":{"type":"float","value":-23},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_restoration":{"ReduceNoiseMaxSetting":{"type":"array::float","value":[1,0,0,0,0]},"ReduceNoiseMinSetting":{"type":"array::float","value":[0,0,0,0,0]},"ReduceReverbMaxSetting":{"type":"array::float","value":[1,0,1,0,0]},"ReduceReverbMinSetting":{"type":"array::float","value":[0,0,1,0,0]},"ReduceRumbleMaxSetting":{"type":"array::float","value":[1,0.06158357858657837,0.375,0,0,0.0008333333535119891,1,0,1,0.0390625,0.0008340898784808815,0,0.004166666883975267,0.00022554649331141263,0.004687500186264515,0.75,0.0052083334885537624,0.75,1,0.75,0.004052083473652601,0.75,0.004262916743755341,0.00022554649331141263,0.006488333456218243,0.00022554649331141263,0.006866666954010725,0.75,0.007170416414737701,0.00022554649331141263,0.01041458360850811,0.00022554649331141263,0.010900000110268593,0.75,0.011407917365431786,0.00022554649331141263,0.015606249682605267,0.00022554649331141263,0.016333334147930145,0.75,0.017094582319259644,0.00022554649331141263,0.026243748143315315,0.00022554649331141263,0.0274666678160429,0.75,0.02874666638672352,0.00022554649331141263,0.04165875166654587,0.00022554649331141263,0.04360000044107437,0.75,0.04563166946172714,0.00022554649331141263,0.06242458149790764,0.00022554649331141263,0.06533333659172058,0.75,0.06837750226259232,0.00022554649331141263,0.10497540980577469,0.00022554649331141263,0.1098666712641716,0.75,0.11498583108186722,0.00022554649331141263,0.16663584113121033,0.00022554649331141263,0.17440000176429749,0.75,0.18252624571323395,0.00022554649331141263,0.918749988079071,0.00022554649331141263,1,0.00022554649331141263,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceRumbleMinSetting":{"type":"array::float","value":[1,0.06158357858657837,0.375,0,0,0.0008333333535119891,1,0,1,0.0390625,0.0008340898784808815,0.75,0.004166666883975267,0.75,0.004687500186264515,0.75,0.0052083334885537624,0.75,1,0.75,0.918749988079071,0.6123724579811096,1,0.6123724579811096,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceSibilanceMaxSetting":{"type":"array::float","value":[0.5,0.1998399794101715,0.18367347121238708,0.260869562625885,0.5270270109176636,0,1,0,0,0,0,0.75,1,1,0.4000000059604645]},"ReduceSibilanceMinSetting":{"type":"array::float","value":[0.875,0.1998399794101715,0.18367347121238708,0.19130434095859528,0.2567567527294159,0,1,0,0,0,0,0.75,1,1,0.4000000059604645]}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/Auditorium=Auditorium":{"type":"array::float","value":[0.013047545216977596,0.15895412862300873,1,0.8999999761581421,0,0.5200743675231934,0.41663265228271484,0.46000000834465027,0.5,0.7300000190734863,0.1599999964237213,0.7537688612937927,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/Church=Church":{"type":"array::float","value":[0.032663315534591675,0.39939939975738525,0.7979797720909119,0.25,0.5,0.5,0.2297959178686142,0.7200000286102295,0.5,0.6299999952316284,0.8799999952316284,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/LargeReflectiveRoom=Large Reflective Room":{"type":"array::float","value":[0.007444901391863823,0.09898842126131058,0.7989053726196289,0.8999999761581421,0.10000000149011612,0.40110713243484497,0.060284845530986786,0.2752297818660736,0.5,0.7300000190734863,0.3199999928474426,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideTheClub=Outside the Club":{"type":"array::float","value":[0.020615793764591217,0.05013655871152878,0.6969699859619141,0.25,0.09435578435659409,0.22242647409439087,0.1071428582072258,0.2800000011920929,0.5,0.7300000190734863,0.46000000834465027,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/SmallDryRoom=Small Dry Room":{"type":"array::float","value":[0.24623115360736847,0.6997500061988831,0.2929289937019348,0.4000000059604645,0.20000000298023224,0.4000000059604645,0.03928571566939354,0.10000000149011612,0.5,1,0.5,0.7537688612937927,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/ThickenVoice=Thicken Voice":{"type":"array::float","value":[0.1959799975156784,0.23931467533111572,0.6969699859619141,0.25,0.5,0.5399999618530273,0.020408162847161293,0.20945435762405396,0.5,1,0.3499999940395355,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmRoom=Warm Room":{"type":"array::float","value":[0.02010050229728222,0.07407407462596893,0.49494948983192444,0.4000000059604645,0.7496030926704407,0.4000000059604645,0.1239795908331871,0.6700000166893005,0.5,0.8500000238418579,0.5600000023841858,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmVoice=Warm Voice":{"type":"array::float","value":[0.19597989320755005,0.8998998999595642,0,0.4000000059604645,0.20000000298023224,0.4000000059604645,0.10204081982374191,0.09000000357627869,0.5,1,0.30000001192092896,0.2512562870979309,0.03125]}}}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":2},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"353811fa-4179-435e-8e5e-23028ba15a7a","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"generic","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-24},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"31ba96a6-5d3e-4d89-b1e1-1dbe3c055d0c","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"music","Models":{"model_ducking":{},"model_duration":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-25},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"cea63332-1adc-44a9-a6eb-5490f965859b","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"sfx","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-21},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_pan":{},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/HeavyReverb=Heavy Reverb":{"type":"array::float","value":[0.13316600024700165,0.2992990016937256,1,0.9599999785423279,0.8500000238418579,0.5,0.5153059959411621,0.30000001192092896,0.5,0.5,0.5,0.2512562870979309,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/LightReverb=Light Reverb":{"type":"array::float","value":[0.0954774022102356,0.2992990016937256,0.09090910106897354,1,1,0.800000011920929,0.2244900017976761,0.6000000238418579,0.5,0.699999988079071,0.30000001192092896,0.2512562870979309,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideReverb=Outside Reverb":{"type":"array::float","value":[0.09170850366353989,0.04389389976859093,1,0.5,0.20000000298023224,0.800000011920929,0.18367299437522888,1,0.5,0,0.800000011920929,0.2512562870979309,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomReverb=Room Reverb":{"type":"array::float","value":[0.0577889010310173,0.44944900274276733,0.49494898319244385,0.8999999761581421,0.10000000149011612,0.15000000596046448,0.08163270354270935,0.4000000059604645,0.5,0.800000011920929,0.20000000298023224,0.2512562870979309,0.0625]}}}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1}]</property>
+    </properties>
+  </session>
+
+  <files>
+    <file absolutePath="C:\Users\APRENDIZ\Documents\Adobe\Audition\25.0\Ventana\Archivos importados\VENTANA 44100 1.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="Archivos importados/VENTANA 44100 1.wav"/>
+  </files>
+
+  <audioDevice inputID="22222222-2222-2222-2222-22222222" outputID="11111111-1111-1111-1111-11111111">
+    <outputPort id="1" name="Salida predeterminada"/>
+    <outputPort id="2" name="[01M] Sistema predeterminado: Auriculares (Realtek(R) Audio) 1"/>
+    <outputPort id="3" name="[02M] Sistema predeterminado: Auriculares (Realtek(R) Audio) 2"/>
+    <outputPort id="4" name="Salida estéreo predeterminada"/>
+    <outputPort id="5" name="[01S] Sistema predeterminado: Auriculares (Realtek(R) Audio) 1"/>
+    <outputPort id="6" name="Salida envolvente predeterminada"/>
+  </audioDevice>
+
+</sesx>

@@ -1,14 +1,21 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {  
+  public bool isPaused;
 
     [Header("Audio")]
     [SerializeField] private AudioSource playerAudio;
     [SerializeField] private AudioClip walkSound;
     [SerializeField] private AudioClip runSound;
+
+    [SerializeField] private AudioClip jumpPlayerSound;
+
+    [SerializeField] private AudioClip jumpSound;
     
     
 
@@ -44,6 +51,7 @@ public class PlayerController : MonoBehaviour
     [Header("Crounching")]
     [SerializeField] private float crouchHeight = 0.5f;
     [SerializeField] private float standingHeight = 2f; 
+    [SerializeField] private LayerMask obstacleLayer;
   
     
 
@@ -64,8 +72,8 @@ public class PlayerController : MonoBehaviour
     
     void Start()
     { 
-       // Cursor.lockState = CursorLockMode.None;
-      //  Cursor.visible = false;
+      // Cursor.visible = false;
+       //Cursor.lockState = CursorLockMode.Locked;
     }
     void Update()
     { 
@@ -83,50 +91,99 @@ public class PlayerController : MonoBehaviour
 
    public void OnMove(InputAction.CallbackContext context)
     {
-        moveInput = context.ReadValue<Vector2>();
+        if (isPaused)
+        {
+            
+        }
+        else
+        {
+             moveInput = context.ReadValue<Vector2>();
+        
+            playerAudio.PlayOneShot(walkSound);
+        }
+       
+    
     }
      public void OnLook(InputAction.CallbackContext context)
     {
-        lookInput = context.ReadValue<Vector2>();
+        if (isPaused)
+        {
+            
+        }
+        else
+        {
+            
+            lookInput = context.ReadValue<Vector2>();
+        }
     }
     
     public void OnRun(InputAction.CallbackContext context)
     {
-        
-       if (context.started)
+        if (isPaused)
         {
+            
+        }
+        else
+        {
+            if (context.started)
+            {
             isRunning = true;
-        }
-        else if (context.canceled)
-        {
+            }
+            else if (context.canceled)
+            {
             isRunning = false;
+            }
+
+            playerAudio.PlayOneShot(runSound);
         }
+        
+       
     }
 
     public void OnCrouch(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (isPaused)
         {
+            
+        }
+        else
+        {
+             if (context.started)
+            {
             isCrouching = true;
+            }
+            else if (context.canceled)
+            {
+           
+           
+                isCrouching = false;
+                
+            
+            }
         }
-        else if (context.canceled)
-        {
-            isCrouching = false;
-        }
+       
     }
 
     public void OnJump(InputAction.CallbackContext context)
     {
-        if(context.started && isGrounded && !isJumping)
+        if (isPaused)
         {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            
         }
+        else
+        {
+             if(context.started && isGrounded && !isJumping)
+            {
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            }
+
+            playerAudio.PlayOneShot(jumpPlayerSound);
+            playerAudio.PlayOneShot(jumpSound);
+        }
+       
     }
 
-    public void OnInteract(InputAction.CallbackContext context)
-    {
-
-    }
+   
     void HandleMovement()
     {
         Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
@@ -163,6 +220,8 @@ public class PlayerController : MonoBehaviour
         transform.Rotate(Vector3.up * lookInput.x * controllerSensitivity);
 
     }
+
+
 
     
 }

@@ -61,6 +61,36 @@ MonoBehaviour:
   m_AtlasPopulationMode: 1
   InternalDynamicOS: 0
   m_GlyphTable:
+  - m_Index: 529
+    m_Metrics:
+      m_Width: 59.046875
+      m_Height: 20.96875
+      m_HorizontalBearingX: 1.890625
+      m_HorizontalBearingY: 20.0625
+      m_HorizontalAdvance: 62.8125
+    m_GlyphRect:
+      m_X: 10
+      m_Y: 10
+      m_Width: 60
+      m_Height: 22
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 553
+    m_Metrics:
+      m_Width: 49.765625
+      m_Height: 12.6875
+      m_HorizontalBearingX: 1.4375
+      m_HorizontalBearingY: -7.65625
+      m_HorizontalAdvance: 52.65625
+    m_GlyphRect:
+      m_X: 89
+      m_Y: 10
+      m_Width: 51
+      m_Height: 14
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   - m_Index: 73
     m_Metrics:
       m_Width: 48.15625
@@ -73,21 +103,6 @@ MonoBehaviour:
       m_Y: 10
       m_Width: 49
       m_Height: 66
-    m_Scale: 1
-    m_AtlasIndex: 0
-    m_ClassDefinitionType: 0
-  - m_Index: 361
-    m_Metrics:
-      m_Width: 49.859375
-      m_Height: 72.1875
-      m_HorizontalBearingX: 2.703125
-      m_HorizontalBearingY: 70.921875
-      m_HorizontalAdvance: 56.609375
-    m_GlyphRect:
-      m_X: 227
-      m_Y: 10
-      m_Width: 51
-      m_Height: 73
     m_Scale: 1
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
@@ -106,21 +121,6 @@ MonoBehaviour:
     m_Scale: 1
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
-  - m_Index: 381
-    m_Metrics:
-      m_Width: 17.546875
-      m_Height: 69.9375
-      m_HorizontalBearingX: 4.046875
-      m_HorizontalBearingY: 69.03125
-      m_HorizontalAdvance: 25.65625
-    m_GlyphRect:
-      m_X: 146
-      m_Y: 95
-      m_Width: 18
-      m_Height: 71
-    m_Scale: 1
-    m_AtlasIndex: 0
-    m_ClassDefinitionType: 0
   - m_Index: 420
     m_Metrics:
       m_Width: 37.53125
@@ -133,6 +133,36 @@ MonoBehaviour:
       m_Y: 43
       m_Width: 38
       m_Height: 58
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 361
+    m_Metrics:
+      m_Width: 49.859375
+      m_Height: 72.1875
+      m_HorizontalBearingX: 2.703125
+      m_HorizontalBearingY: 70.921875
+      m_HorizontalAdvance: 56.609375
+    m_GlyphRect:
+      m_X: 227
+      m_Y: 10
+      m_Width: 51
+      m_Height: 73
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 381
+    m_Metrics:
+      m_Width: 17.546875
+      m_Height: 69.9375
+      m_HorizontalBearingX: 4.046875
+      m_HorizontalBearingY: 69.03125
+      m_HorizontalAdvance: 25.65625
+    m_GlyphRect:
+      m_X: 146
+      m_Y: 95
+      m_Width: 18
+      m_Height: 71
     m_Scale: 1
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
@@ -166,60 +196,34 @@ MonoBehaviour:
     m_Scale: 1
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
-  - m_Index: 529
-    m_Metrics:
-      m_Width: 59.046875
-      m_Height: 20.96875
-      m_HorizontalBearingX: 1.890625
-      m_HorizontalBearingY: 20.0625
-      m_HorizontalAdvance: 62.8125
-    m_GlyphRect:
-      m_X: 10
-      m_Y: 10
-      m_Width: 60
-      m_Height: 22
-    m_Scale: 1
-    m_AtlasIndex: 0
-    m_ClassDefinitionType: 0
-  - m_Index: 553
-    m_Metrics:
-      m_Width: 49.765625
-      m_Height: 12.6875
-      m_HorizontalBearingX: 1.4375
-      m_HorizontalBearingY: -7.65625
-      m_HorizontalAdvance: 52.65625
-    m_GlyphRect:
-      m_X: 89
-      m_Y: 10
-      m_Width: 51
-      m_Height: 14
-    m_Scale: 1
-    m_AtlasIndex: 0
-    m_ClassDefinitionType: 0
   m_CharacterTable:
   - m_ElementType: 1
-    m_Unicode: 80
-    m_GlyphIndex: 73
+    m_Unicode: 8230
+    m_GlyphIndex: 529
     m_Scale: 1
   - m_ElementType: 1
     m_Unicode: 95
     m_GlyphIndex: 553
     m_Scale: 1
   - m_ElementType: 1
-    m_Unicode: 100
-    m_GlyphIndex: 361
+    m_Unicode: 80
+    m_GlyphIndex: 73
     m_Scale: 1
   - m_ElementType: 1
     m_Unicode: 101
     m_GlyphIndex: 365
     m_Scale: 1
   - m_ElementType: 1
-    m_Unicode: 105
-    m_GlyphIndex: 381
-    m_Scale: 1
-  - m_ElementType: 1
     m_Unicode: 114
     m_GlyphIndex: 420
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 100
+    m_GlyphIndex: 361
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 105
+    m_GlyphIndex: 381
     m_Scale: 1
   - m_ElementType: 1
     m_Unicode: 115
@@ -228,10 +232,6 @@ MonoBehaviour:
   - m_ElementType: 1
     m_Unicode: 116
     m_GlyphIndex: 430
-    m_Scale: 1
-  - m_ElementType: 1
-    m_Unicode: 8230
-    m_GlyphIndex: 529
     m_Scale: 1
   m_AtlasTextures:
   - {fileID: 6223341362305237431}

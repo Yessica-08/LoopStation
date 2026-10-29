@@ -649,6 +649,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Base
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 455f12e8207ebc243b6a87effcb33b48, type: 3}
+      propertyPath: m_TagString
+      value: InteruactableTag
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24755,7 +24759,7 @@ Transform:
   m_GameObject: {fileID: 960630049}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.6835824, z: -0, w: 0.72987336}
-  m_LocalPosition: {x: -137.19, y: 1.69, z: 118.59}
+  m_LocalPosition: {x: -137.19, y: 1.19, z: 118.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26413,7 +26417,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2c1075161643a0141b8f838e86f24479, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0000020726243
+      value: -0.49999997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2c1075161643a0141b8f838e86f24479, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26445,6 +26449,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2c1075161643a0141b8f838e86f24479, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2992221095522530367, guid: 2c1075161643a0141b8f838e86f24479, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2c1075161643a0141b8f838e86f24479, type: 3}
@@ -31364,7 +31372,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6375251376813407553, guid: 3417d7baabe9a9e47854224fea7f2846, type: 3}
 --- !u!54 &1236934325
@@ -33481,6 +33489,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stick
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a91d09798293d24baab63028dff7f61, type: 3}
+      propertyPath: m_TagString
+      value: InteruactableTag
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34223,6 +34235,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4a91d09798293d24baab63028dff7f61, type: 3}
       propertyPath: m_Name
       value: Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a91d09798293d24baab63028dff7f61, type: 3}
+      propertyPath: m_TagString
+      value: InteractablePlace
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -45971,6 +45987,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Base '
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 455f12e8207ebc243b6a87effcb33b48, type: 3}
+      propertyPath: m_TagString
+      value: InteractablePlace
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46975,6 +46995,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 808e5ca621ad5d2499a2ae39c4814cad, type: 3}
       propertyPath: m_Name
       value: Handle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 808e5ca621ad5d2499a2ae39c4814cad, type: 3}
+      propertyPath: m_TagString
+      value: InteractablePlace
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -51769,7 +51793,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6375251376813407553, guid: 3417d7baabe9a9e47854224fea7f2846, type: 3}
 --- !u!54 &1936941892
@@ -52042,6 +52066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Handle
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 808e5ca621ad5d2499a2ae39c4814cad, type: 3}
+      propertyPath: m_TagString
+      value: InteruactableTag
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -52052,6 +52080,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 808e5ca621ad5d2499a2ae39c4814cad, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1960257157}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 808e5ca621ad5d2499a2ae39c4814cad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1960257162}
   m_SourcePrefab: {fileID: 100100000, guid: 808e5ca621ad5d2499a2ae39c4814cad, type: 3}
 --- !u!1 &1960257156 stripped
 GameObject:
@@ -52092,6 +52123,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectID
   ID: Handle
+--- !u!54 &1960257162
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960257156}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1961999254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58083,7 +58141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edac86a24b4d6b74a9d5920246dff44c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.029999971
+      value: -0.47
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edac86a24b4d6b74a9d5920246dff44c, type: 3}
       propertyPath: m_LocalPosition.z

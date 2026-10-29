@@ -20,6 +20,7 @@ public class UIManager : MonoBehaviour
     public CursorManager cursorView;
 
     public bool isPaused;
+    public static bool isFail;
 
     public void Update()
     {

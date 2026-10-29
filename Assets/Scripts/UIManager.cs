@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 
 public class UIManager : MonoBehaviour
@@ -22,7 +23,17 @@ public class UIManager : MonoBehaviour
 
 public void Update()
     {
-       
+       if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!isPaused)
+            {
+                OpenPausePanel();
+            }
+            else
+            {
+                ClosePausePanel();
+            }
+        }
     }
     public void OpenMenuPanel()
     {
@@ -30,6 +41,7 @@ public void Update()
         playerController.isPaused = true;
         playerInteraction.isPaused = true;
         timer.isPaused = true;
+        menuPanel.SetActive(true);
 
     }
 
@@ -40,6 +52,8 @@ public void Update()
         playerController.isPaused = true;
         playerInteraction.isPaused = true;
         timer.isPaused = true;
+        isPaused = true;
+        pausePanel.SetActive(true);
        
     }
 
@@ -50,6 +64,8 @@ public void Update()
         playerInteraction.isPaused = true;
         timer.isPaused = true;
        cursorView.ViewCursor();
+       settingsPanel.SetActive(true);
+        isPaused = true;
     }
 
     public void CloseMenuPanel()
@@ -60,6 +76,8 @@ public void Update()
          playerController.isPaused = false;
          playerInteraction.isPaused = false;
         timer.isPaused = false;
+        menuPanel.SetActive(false);
+        isPaused = false;
             
     
         
@@ -72,6 +90,9 @@ public void Update()
         playerController.isPaused = false;
          playerInteraction.isPaused = false;
         timer.isPaused = false;
+        isPaused = false;
+        pausePanel.SetActive(false);
+    
     }
 
     public void CloseSettingsPanel()
@@ -81,6 +102,7 @@ public void Update()
         timer.isPaused = false;
             
         cursorView.HideCursor();
+        settingsPanel.SetActive(false);
     }
 
                                                                         

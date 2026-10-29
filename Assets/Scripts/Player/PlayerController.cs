@@ -1,3 +1,5 @@
+using JetBrains.Annotations;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -96,13 +98,28 @@ public class PlayerController : MonoBehaviour
             
         }
         else
-        {
+        { 
              moveInput = context.ReadValue<Vector2>();
+            if (context.started)
+            {
+                InvokeRepeating(nameof(LoopsSteps),0.5f,0.5f);
+            }
+            if (context.canceled)
+            {
+                CancelInvoke(nameof(LoopsSteps));
+            }
         
-            playerAudio.PlayOneShot(walkSound);
         }
+
+    
        
     
+    }
+
+    public void LoopsSteps()
+    {
+             playerAudio.PlayOneShot(walkSound);
+        
     }
      public void OnLook(InputAction.CallbackContext context)
     {
@@ -127,17 +144,24 @@ public class PlayerController : MonoBehaviour
         {
             if (context.started)
             {
-            isRunning = true;
+                 InvokeRepeating(nameof(LoopRunSteps),0.3f,0.3f);
+                isRunning = true;
             }
             else if (context.canceled)
             {
-            isRunning = false;
+                 CancelInvoke(nameof(LoopRunSteps));
+                isRunning = false;
             }
 
-            playerAudio.PlayOneShot(runSound);
         }
         
        
+    }
+
+    public void LoopRunSteps()
+    {
+            playerAudio.PlayOneShot(runSound);
+        
     }
 
     public void OnCrouch(InputAction.CallbackContext context)

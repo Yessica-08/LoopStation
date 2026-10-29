@@ -97,7 +97,23 @@ public class PlayerInteraction : MonoBehaviour
                     }
                 }
             }
-        
+
+            if (hit.collider.CompareTag("InteractuablePlace"))
+            {
+                if (onFirstHandOcuped)
+                {
+                    if(object1.GetComponent<ObjectID>().ID == hit.collider.GetComponent<ObjectPlace>().IDPlace) 
+                    {
+                        var temporalObject = object1;
+                        Release();
+                        temporalObject.GetComponent<Rigidbody>().isKinematic = true;
+                        temporalObject.transform.position = hit.transform.position;
+                        temporalObject.transform.rotation = hit.transform.rotation;
+                        temporalObject.GetComponent<Collider>().enabled = false;
+                        GameObject.FindAnyObjectByType<PlaceValidator>().CalculatePlaces();
+                    }
+                }
+            }
         }
     }
 

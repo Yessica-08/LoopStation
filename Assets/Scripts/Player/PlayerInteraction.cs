@@ -98,7 +98,7 @@ public class PlayerInteraction : MonoBehaviour
                 }
             }
 
-            if (hit.collider.CompareTag("InteractuablePlace"))
+            if (hit.collider.CompareTag("InteractablePlace"))
             {
                 if (onFirstHandOcuped)
                 {
@@ -110,6 +110,7 @@ public class PlayerInteraction : MonoBehaviour
                         temporalObject.transform.position = hit.transform.position;
                         temporalObject.transform.rotation = hit.transform.rotation;
                         temporalObject.GetComponent<Collider>().enabled = false;
+                        hit.collider.GetComponent<MeshRenderer>().enabled = false;
                         GameObject.FindAnyObjectByType<PlaceValidator>().CalculatePlaces();
                     }
                 }

@@ -3,9 +3,9 @@ using UnityEngine.Events;
 
 public class PlaceValidator : MonoBehaviour
 {
-    int maxNumberPlace;
+    public int maxNumberPlace;
 
-    int currentPlaceUsed;
+    public int currentPlaceUsed;
 
     public UnityEvent onFinish;
 

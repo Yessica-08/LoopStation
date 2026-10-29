@@ -15,15 +15,15 @@ public class UIManager : MonoBehaviour
     public PlayerInteraction playerInteraction;
 
     public Timer timer;
-    
+
 
     public CursorManager cursorView;
 
     public bool isPaused;
 
-public void Update()
+    public void Update()
     {
-       if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (!isPaused)
             {
@@ -32,8 +32,13 @@ public void Update()
             else
             {
                 ClosePausePanel();
+                settingsPanel.SetActive(false);
             }
         }
+    }
+    public void StartGame()
+    {
+        Time.timeScale = 1.0f;
     }
     public void OpenMenuPanel()
     {
@@ -54,17 +59,17 @@ public void Update()
         timer.isPaused = true;
         isPaused = true;
         pausePanel.SetActive(true);
-       
+
     }
 
     public void OpenSettinsPanel()
     {
-         cursorView.ViewCursor();
-         playerController.isPaused = true;
+        cursorView.ViewCursor();
+        playerController.isPaused = true;
         playerInteraction.isPaused = true;
         timer.isPaused = true;
-       cursorView.ViewCursor();
-       settingsPanel.SetActive(true);
+        cursorView.ViewCursor();
+        settingsPanel.SetActive(true);
         isPaused = true;
     }
 
@@ -72,15 +77,15 @@ public void Update()
     {
         cursorView.HideCursor();
 
-        
-         playerController.isPaused = false;
-         playerInteraction.isPaused = false;
+
+        playerController.isPaused = false;
+        playerInteraction.isPaused = false;
         timer.isPaused = false;
         menuPanel.SetActive(false);
         isPaused = false;
-            
-    
-        
+
+
+
     }
 
     public void ClosePausePanel()
@@ -88,23 +93,22 @@ public void Update()
         Time.timeScale = 1f;
         cursorView.HideCursor();
         playerController.isPaused = false;
-         playerInteraction.isPaused = false;
+        playerInteraction.isPaused = false;
         timer.isPaused = false;
         isPaused = false;
         pausePanel.SetActive(false);
-    
+
     }
 
     public void CloseSettingsPanel()
     {
-         playerController.isPaused = false;
-         playerInteraction.isPaused = false;
+        playerController.isPaused = false;
+        playerInteraction.isPaused = false;
         timer.isPaused = false;
-            
+
         cursorView.HideCursor();
         settingsPanel.SetActive(false);
     }
 
-                                                                        
+
 }
-                   

@@ -5,24 +5,24 @@ using UnityEngine.Events;
 
 public class Timer : MonoBehaviour
 {
-       public float time;
+    public float time;
     [SerializeField] float deadTime;
     [SerializeField] UnityEvent onEndTime;
-       public TextMeshProUGUI timerText;
+    public TextMeshProUGUI timerText;
 
-       public bool isPaused;
-      public  void Update()
+    public bool isPaused;
+    public void Update()
     {
         if (isPaused)
         {
-            
+
         }
         else
         {
-            if(time > deadTime)
+            if (time > deadTime)
             {
                 time -= Time.deltaTime;
-                
+
             }
             else
             {
@@ -32,7 +32,8 @@ public class Timer : MonoBehaviour
                 }
                 isPaused = true;
             }
-            timerText.text = time.ToString("F0");
+            if (timerText != null)
+                timerText.text = time.ToString("F0");
         }
 
     }

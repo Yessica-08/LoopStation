@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Train.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/GoodCinematic.unity
+    guid: 1482d5867517e9247ab58541641a86d6
+  - enabled: 1
+    path: Assets/Scenes/BadCinematic.unity
+    guid: 5cc10ec5db2760a42b4c68c1e8582ccb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: c3693c8403b91874c853bd1f238910e7, type: 3}

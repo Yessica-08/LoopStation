@@ -20,6 +20,11 @@ public class PlayerInteraction : MonoBehaviour
     private GameObject object1;
     private GameObject object2;
 
+    public AudioSource audioSource;
+    public AudioClip interactClip;
+
+    public AudioClip releaseClip;
+
     private void Update()
     {
         Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward * rayDistance , Color.blue);
@@ -36,7 +41,8 @@ public class PlayerInteraction : MonoBehaviour
         {
              if (context.started)
             {
-            Interact();
+                Interact();
+                audioSource.PlayOneShot(interactClip);
             }  
         }
         
@@ -52,7 +58,9 @@ public class PlayerInteraction : MonoBehaviour
         {
              if (context.started)
             {
+
             Release();
+              audioSource.PlayOneShot(releaseClip);
             }
         }
        

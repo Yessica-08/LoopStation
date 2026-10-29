@@ -12,6 +12,9 @@ public class FennixController : MonoBehaviour
 
     [SerializeField] bool isNear;
 
+    public AudioSource fennixSource;
+    public AudioClip fennixVoice;
+
    private void Update()
     {
         CalculateDistance();
@@ -26,6 +29,8 @@ public class FennixController : MonoBehaviour
             isNear = true; 
             foxPanel.alpha = 1;
             Debug.Log("Se acerco");
+
+            fennixSource.PlayOneShot(fennixVoice);
         }
         if(distance > minDistance && isNear)
         {

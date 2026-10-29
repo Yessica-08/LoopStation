@@ -200,7 +200,7 @@ public class PlayerController : MonoBehaviour
             {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
             }
-
+        
             playerAudio.PlayOneShot(jumpPlayerSound);
             playerAudio.PlayOneShot(jumpSound);
         }

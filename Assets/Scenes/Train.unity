@@ -8509,14 +8509,14 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1497811322}
+  - {fileID: 853046102}
   - {fileID: 490724801}
   - {fileID: 1737712002}
   - {fileID: 1468309309}
   - {fileID: 751987266}
   - {fileID: 329955147}
   - {fileID: 1432577060}
-  - {fileID: 1497811322}
-  - {fileID: 853046102}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

@@ -20,8 +20,33 @@ public class UIManager : MonoBehaviour
     public CursorManager cursorView;
 
     public bool isPaused;
-    public static bool isFail;
 
+    public static bool isFail = false;
+
+    public void SetFail(bool fail)
+    {
+        isFail = fail;
+    }
+    private void Start()
+    {
+        if (isFail)
+        {
+            menuPanel.SetActive(false);
+            playerController.isPaused = false;
+            isPaused = false;
+            playerInteraction.isPaused = false;
+            cursorView.HideCursor();
+        }
+        else
+        {
+            menuPanel.SetActive(true);
+            playerController.isPaused = true;
+            isPaused = true;
+            playerInteraction.isPaused = true;
+            cursorView.ViewCursor();
+        }
+    }
+   
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -40,6 +65,8 @@ public class UIManager : MonoBehaviour
     public void StartGame()
     {
         Time.timeScale = 1.0f;
+        cursorView.HideCursor();
+
     }
     public void OpenMenuPanel()
     {
